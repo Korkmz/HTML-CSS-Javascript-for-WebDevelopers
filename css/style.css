@@ -7,7 +7,7 @@ h2{
     text-align: center;
 }
 
-.section{
+.box-include{
     border: 1px solid black;
     background-color: #999999;
     margin: 10px;
@@ -36,7 +36,7 @@ span{
     background-color: rgb(230, 255, 9);
 }
 
-.section p{
+.box-include p{
     padding: 15px;
 }
 
@@ -73,7 +73,7 @@ span{
     .col-md-4{
         width: 100%;
     }
-    .section{
+    .box-include{
         margin-left: 35px;
         margin-right: 35px;
     }
