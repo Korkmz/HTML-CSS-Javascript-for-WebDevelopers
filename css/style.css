@@ -2,9 +2,11 @@
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
 }
+
 h2{
     text-align: center;
 }
+
 .box-include{
     border: 1px solid black;
     background-color: #999999;
@@ -20,27 +22,34 @@ span{
     font-weight: 600;
     font-size: 1.25em;
 }
+
 .box-title1{
     background-color: palevioletred;
 }
+
 .box-title2{
     background-color: rgb(255, 0, 85);
     color: white;
 }
+
 .box-title3{
     background-color: rgb(230, 255, 9);
 }
+
 .box-include p{
     padding: 15px;
 }
+
 .title{
     margin-top: 40px;
     font-size: 1.75em;
 }
+
 .row{
     width: 100%;
-    margin-top: 70px;
+    margin-top: 40px;
 }
+
 @media (min-width:992px) , (max-width:1200px){/*Browser Window*/
     .col-md-4{
         width: 33.33%;
@@ -55,11 +64,21 @@ span{
     .col-md-12{
         width: 100%;
     }
+    .row{
+        margin-top: 0px;
+    }
 }
 
 @media (max-width:767px){
     .col-md-4{
         width: 100%;
+    }
+    .box-include{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .row{
+        margin-top: 0px;
     }
 
 }
