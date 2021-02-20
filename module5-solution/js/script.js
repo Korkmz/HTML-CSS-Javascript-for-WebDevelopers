@@ -76,7 +76,7 @@ function buildAndShowHomeHTML (categories) {
         buildAndShowCategoriesHTML(categories);
      
     },
-    false); /
+    false); 
 }
 
 
